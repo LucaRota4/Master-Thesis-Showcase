@@ -1,16 +1,22 @@
-# Master Thesis: Computational Design of Metal-Organic Frameworks
+# Computational Design of Carbon Capture Metal-Organic Frameworks using a Reinforcement Learning Loop
 
-**Computational Design of Carbon Capture Metal-Organic Frameworks using a Reinforcement Learning Loop**
+**Master Thesis** · Luca Rota
 
-Luca Rota · M.Sc. in Chemical Engineering and Biotechnology (EPFL & ETH Zürich) · October 2025 – May 2026
-
-Master thesis carried out at **ETH Zürich**, in the EPSE group (Energy and Process Systems Engineering, Prof. André Bardow), in collaboration with the **EPFL** [LIAC](https://www.epfl.ch/labs/liac) (Laboratory of Artificial Chemical Intelligence, Prof. Philippe Schwaller).
+| | |
+|---|---|
+| **Degree** | M.Sc. in Chemical Engineering and Biotechnology (EPFL & ETH Zürich) |
+| **Period** | October 2025 – May 2026 |
+| **Host group** | [EPSE](https://epse.ethz.ch) – Energy and Process Systems Engineering, **ETH Zürich** (Prof. André Bardow) |
+| **Collaboration** | [LIAC](https://www.epfl.ch/labs/liac) – Laboratory of Artificial Chemical Intelligence, **EPFL** (Prof. Philippe Schwaller) |
+| **Contact** | lu.rota@sunrise.ch |
 
 > This repository is a showcase. The full thesis, the code and the data are not public. Only this description and the poster are published.
 
-![Master thesis poster](Luca_Rota_Master_Thesis_Poster.png)
+## Poster
 
-[Poster as PDF](Luca_Rota_Master_Thesis_Poster.pdf)
+[![Master thesis poster](Luca_Rota_Master_Thesis_Poster.png)](Luca_Rota_Master_Thesis_Poster.pdf)
+
+*Click the poster to open the PDF.*
 
 ## What is it about?
 
@@ -48,7 +54,3 @@ The cDFT simulation is the key component of the loop: it is much faster than GCM
 ## My work
 
 I built and ran the whole pipeline: coupling the four components into an automated RL loop, processing the data between the steps, and running the computations on remote computing resources (GPU). Progress was presented weekly to my supervisors.
-
-## Contact
-
-For any further information, feel free to contact me by e-mail: **lu.rota@sunrise.ch**
