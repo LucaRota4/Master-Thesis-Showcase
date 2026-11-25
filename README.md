@@ -53,4 +53,12 @@ The cDFT simulation is the key component of the loop: it is much faster than GCM
 
 ## My work
 
-I built and ran the whole pipeline: coupling the four components into an automated RL loop, processing the data between the steps, and running the computations on remote computing resources (GPU). Progress was presented weekly to my supervisors.
+I built and ran the whole pipeline, from reproducing the original models to the final closed loop:
+
+- Reproduced MOFGPT, evaluated its fine-tuning and RL training routes, and modified the RL training and the reward function to get a more stable learning signal and avoid the model generating the same structure repeatedly.
+- Compared MOFFlow and MOFFlow-2 for the 3D assembly and wrote the adaptation layer between MOFGPT and MOFFlow-2.
+- Integrated MOFChecker to filter invalid structures and replaced the machine-learning property predictor of the original pipeline with the 3D cDFT simulation as the source of the reward.
+- Ran the experiments for CO₂ adsorption on remote GPU servers and compared the best generated MOFs with a reference database of 1,200 MOFs.
+- Presented the progress weekly to my supervisors.
+
+The pipeline is mostly written in Python (PyTorch, Hugging Face, RDKit, Open Babel, MOFChecker).
